@@ -1,7 +1,7 @@
 #!/bin/bash
 echo "hello"
 whoami
-su - jvm<<!
+su - jxm<<!
 pwd
 whoami
 mkdir ~/msfthack
@@ -16,7 +16,7 @@ cd ..
 git clone https://github.com/fizyr/keras-retinanet.git
 cd keras-retinanet 
 pip install . --user
-cd ~/msfthack
+cd ~
 mkdir .jupyter
 cd .jupyter
 wget https://raw.githubusercontent.com/Iamnvincible/jupyterconfig/master/jupyter_notebook_config.py
