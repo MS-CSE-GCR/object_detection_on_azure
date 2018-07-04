@@ -1,6 +1,6 @@
 #!/bin/bash
-mkdir ~/msfthack
-cd ~/msfthack
+mkdir /home/msfthack
+cd /home/msfthack
 echo "cloning darknet"
 git clone https://github.com/Iamnvincible/darknet.git
 cd darknet
