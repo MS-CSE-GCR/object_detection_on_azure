@@ -11,11 +11,11 @@ cd ..
 git clone https://github.com/fizyr/keras-retinanet.git
 cd keras-retinanet 
 pip install . --user
-cd ~
+cd /home/msfthack
 mkdir .jupyter
 cd .jupyter
 wget https://raw.githubusercontent.com/Iamnvincible/jupyterconfig/master/jupyter_notebook_config.py
-cd ~/msfthack
+cd /home/msfthack
 echo "starting jupyter notebook on port 9999"
 jupyter notebook >jupyter.log 2>&1 &
 echo "done"
