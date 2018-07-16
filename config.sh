@@ -1,7 +1,7 @@
 #!/bin/bash
 echo "hello"
 whoami
-su - jxm<<!
+su - msft<<!
 pwd
 whoami
 mkdir ~/msfthack
