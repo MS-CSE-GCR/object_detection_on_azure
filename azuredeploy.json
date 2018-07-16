@@ -278,7 +278,7 @@
               "typeHandlerVersion": "2.0",
               "autoUpgradeMinorVersion": true,
               "settings": {
-                "fileUris": ["https://raw.githubusercontent.com/Iamnvincible/jupyterconfig/master/config.sh"],
+                "fileUris": ["https://raw.githubusercontent.com/Iamnvincible/object_detection_on_azure/master/config.sh"],
                 "commandToExecute": "sh config.sh"
               }
             }
