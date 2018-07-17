@@ -23,6 +23,7 @@ wget https://raw.githubusercontent.com/Iamnvincible/object_detection_on_azure/ma
 cd ~/msfthack
 wget https://raw.githubusercontent.com/Iamnvincible/object_detection_on_azure/master/Yolo.ipynb
 wget https://raw.githubusercontent.com/Iamnvincible/object_detection_on_azure/master/Retinanet.ipynb
+mkdir ~/msfthack/Image
 echo "starting jupyter notebook on port 9999"
 jupyter notebook >jupyter.log 2>&1 &
 echo "done"
