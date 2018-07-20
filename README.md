@@ -1,5 +1,4 @@
-### Welcome to the Linux Data Science Virtual Machine
-
+# Friendly object detection 
 ### Requirements
 **Please read carefully, and conform the criteria below.**
 
