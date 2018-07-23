@@ -1,4 +1,7 @@
 # Friendly object detection 
+
+This project aims to simplify objection detection.
+You can do all your work in a Jupyter Notebook rather than in command line. You can choose Yolo or Retinanet or both to train you model.
 ### Requirements
 **Please read carefully, and conform the criteria below.**
 
@@ -21,7 +24,7 @@ Your Dataset folder MUST contain a folder named **VOCdevkit**, which includes yo
 
 Make sure everything is well prepared, compress the VOCdevkit folder to a zip/tar file.
 
-### Deyploy
+### Deployment
 
 Choose one way below to deploy, these two ways both work.
 In the web page you need input some info to deploy a VM, you can type you own password but **DO NOT** change the username.
@@ -35,3 +38,5 @@ In the web page you need input some info to deploy a VM, you can type you own pa
     <img src="http://azuredeploy.net/deploybutton.png"/>
 </a>
 
+### Development
+After deployment, you can get an ip address in Azure Portal, open the url `http://<ip>:9999` in your browser. Login with password `msfthack` and you will see Yolo and Retinanet notebooks, choose one to open and follow the steps.
