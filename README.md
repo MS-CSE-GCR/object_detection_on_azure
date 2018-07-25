@@ -23,7 +23,7 @@ Your Dataset folder MUST contain a folder named **VOCdevkit**, which includes yo
 │  └─*.jpg(lower case extension name)
 
 eg. If I want to train one object detection on helmet, my file tree can be like this image.
-![](Image/tree.png)
+![](https://raw.githubusercontent.com/MS-CSE-GCR/object_detection_on_azure/master/Image/tree.png)
 
 Make sure everything is well prepared, compress the VOCdevkit folder to a zip/tar file.
 
@@ -43,18 +43,18 @@ In the web page you need input some info to deploy a VM, you can type you own pa
 
 eg. If you click the first button to deploy, just fill in the Visual Machine Name and Admin Password cells. If you want use your existing resource group, check the selection box below in the yellow rectangle.
 
-![](Image/Create.png)
+![](https://raw.githubusercontent.com/MS-CSE-GCR/object_detection_on_azure/master/Image/Create.png)
 ### Development
 After deployment, you can get an ip address in Azure Portal, open the url `http://<ip>:9999` in your browser. Login with password `msfthack` and you will see Yolo and Retinanet notebooks, choose one to open and follow the steps.
 
 In the webpage you will see:
 
-![](Image/Notebook.png)
+![](https://raw.githubusercontent.com/MS-CSE-GCR/object_detection_on_azure/master/Image/Notebook.png)
 
 You should upload your dateset file in the Image folder, in the picture I uploaded two datesets. If you unzip the datasests, you will see the VOCdevkit folder.
 
-![](Image/ImageFolder.png)
+![](https://raw.githubusercontent.com/MS-CSE-GCR/object_detection_on_azure/master/Image/ImageFolder.png)
 
 In the VOCdevkit folder, you can see all your datasets' folder.
 
-![](Image/datasets.png)
+![](https://raw.githubusercontent.com/MS-CSE-GCR/object_detection_on_azure/master/Image/datasets.png)
