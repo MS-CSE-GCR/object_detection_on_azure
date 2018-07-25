@@ -23,6 +23,7 @@ Your Dataset folder MUST contain a folder named **VOCdevkit**, which includes yo
 │  └─*.jpg(lower case extension name)
 
 eg. If I want to train one object detection on helmet, my file tree can be like this image.
+
 ![](https://raw.githubusercontent.com/MS-CSE-GCR/object_detection_on_azure/master/Image/tree.png)
 
 Make sure everything is well prepared, compress the VOCdevkit folder to a zip/tar file.
