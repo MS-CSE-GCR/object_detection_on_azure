@@ -20,7 +20,7 @@ Your Dataset folder MUST contain a folder named **VOCdevkit**, which includes yo
 
 └─JPEGImages
 
-│  └─*.jpg(lower case extension name)
+│  └─*.jpg(lower case extension name. **MUST** be end with **jpg** rather than **jpeg**)
 
 eg. If I want to train one object detection on helmet, my file tree can be like this image.
 
