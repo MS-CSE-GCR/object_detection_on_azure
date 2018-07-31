@@ -16,11 +16,13 @@ Your Dataset folder MUST contain a folder named **VOCdevkit**, which includes yo
 │  └─Main 
 
 
-│  |  └─ \<classname>_train.txt,\<classname>_val.txt, tran.txt, val.txt
+│  |  └─ \<classname>_train.txt,\<classname>_val.txt, train.txt, val.txt
 
 └─JPEGImages
 
 │  └─*.jpg(lower case extension name. **MUST** be end with **jpg** rather than **jpeg**)
+
+If you don't hava train.txt and val.txt in Main folder, copy `Gentxt.py` to your dataset's `ImageSets` folder, and run that script, then you will get these text files.
 
 eg. If I want to train one object detection on helmet, my file tree can be like this image.
 
