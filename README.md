@@ -46,6 +46,8 @@ In the web page you need input some info to deploy a VM, you can type you own pa
 
 eg. If you click the first button to deploy, just fill in the Visual Machine Name and Admin Password cells. If you want use your existing resource group, check the selection box below in the yellow rectangle.
 
+note. In some resource group or vm location, you may not access the url in the following step, because the custom script failed. If it happends, try eastus2.
+
 ![](https://raw.githubusercontent.com/MS-CSE-GCR/object_detection_on_azure/master/Image/Create.png)
 ### Development
 After deployment, you can get an ip address in Azure Portal, open the url `http://<ip>:9999` in your browser. Login with password `msfthack` and you will see Yolo and Retinanet notebooks, choose one to open and follow the steps.
