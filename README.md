@@ -51,6 +51,7 @@ note. In some resource group or vm location, you may not access the url in the f
 ![](https://raw.githubusercontent.com/MS-CSE-GCR/object_detection_on_azure/master/Image/Create.png)
 ### Development
 After deployment, you can get an ip address in Azure Portal, open the url `http://<ip>:9999` in your browser. Login with password `msfthack` and you will see Yolo and Retinanet notebooks, choose one to open and follow the steps.
+And if you stop/restart the vm, next time you should login it through SSH, and run `jupyter notebook` in command line, when it's ready, visit the 9999 port.
 
 In the webpage you will see:
 
