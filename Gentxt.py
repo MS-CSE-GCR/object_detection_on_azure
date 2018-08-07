@@ -17,15 +17,15 @@ for file in filenames:
     with open(path + file, 'r') as f:
         if file.endswith('_train.txt'):
             content = f.read()
-            get = re.findall(r'(\d+)[ ]+1\n', content)
+            get = re.findall(r'(\S+)[ ]+1\n', content)
             train += get
         if file.endswith('_val.txt'):
             content = f.read()
-            get = re.findall(r'(\d+)[ ]+1\n', content)
+            get = re.findall(r'(\S+)[ ]+1\n', content)
             val += get
         if file.endswith('_test.txt'):
             content = f.read()
-            get = re.findall(r'(\d+)[ ]+1\n', content)
+            get = re.findall(r'(\S+)[ ]+1\n', content)
             test += get
 train = set(train)
 print('find %d files for training.\n'%(len(train)))
