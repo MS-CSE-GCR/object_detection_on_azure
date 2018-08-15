@@ -2,6 +2,8 @@
 
 This project aims to simplify objection detection.
 You can do all your work in a Jupyter Notebook rather than in command line. You can choose Yolo or Retinanet or both to train you model.
+
+This is the tutorial [video](https://cloudmateriallsj.blob.core.windows.net/video/Object_detection_tutorial.mp4) in Chinese for your reference.
 ### Requirements
 **Please read carefully, and conform the criteria below.**
 
